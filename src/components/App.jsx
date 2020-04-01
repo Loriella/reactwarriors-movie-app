@@ -21,7 +21,7 @@ class App extends React.Component {
     const {auth} = this.props;
 
     return (
-      <Router>
+      <Router basename="/reactwarriors-movie-app">
         <div>
           <Header/>
           <Route exact path="/" component={MoviesPage}/>
